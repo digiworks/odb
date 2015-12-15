@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="odb">
+        <df name="relational">
+          <df name="mssql">
+            <in>common.cxx</in>
+            <in>context.cxx</in>
+            <in>header.cxx</in>
+            <in>inline.cxx</in>
+            <in>model.cxx</in>
+            <in>schema.cxx</in>
+            <in>source.cxx</in>
+          </df>
+          <df name="mysql">
+            <in>common.cxx</in>
+            <in>context.cxx</in>
+            <in>header.cxx</in>
+            <in>inline.cxx</in>
+            <in>model.cxx</in>
+            <in>schema.cxx</in>
+            <in>source.cxx</in>
+          </df>
+          <df name="oracle">
+            <in>common.cxx</in>
+            <in>context.cxx</in>
+            <in>header.cxx</in>
+            <in>inline.cxx</in>
+            <in>model.cxx</in>
+            <in>schema.cxx</in>
+            <in>source.cxx</in>
+          </df>
+          <df name="pgsql">
+            <in>common.cxx</in>
+            <in>context.cxx</in>
+            <in>header.cxx</in>
+            <in>inline.cxx</in>
+            <in>model.cxx</in>
+            <in>schema.cxx</in>
+            <in>source.cxx</in>
+          </df>
+          <df name="sqlite">
+            <in>common.cxx</in>
+            <in>context.cxx</in>
+            <in>header.cxx</in>
+            <in>inline.cxx</in>
+            <in>model.cxx</in>
+            <in>schema.cxx</in>
+            <in>source.cxx</in>
+          </df>
+          <in>changelog.cxx</in>
+          <in>common-query.cxx</in>
+          <in>common.cxx</in>
+          <in>context.cxx</in>
+          <in>header.cxx</in>
+          <in>inline.cxx</in>
+          <in>model.cxx</in>
+          <in>processor.cxx</in>
+          <in>schema-source.cxx</in>
+          <in>schema.cxx</in>
+          <in>source.cxx</in>
+          <in>validator.cxx</in>
+        </df>
+        <df name="semantics">
+          <df name="relational">
+            <in>changelog.cxx</in>
+            <in>changeset.cxx</in>
+            <in>column.cxx</in>
+            <in>deferrable.cxx</in>
+            <in>elements.cxx</in>
+            <in>foreign-key.cxx</in>
+            <in>index.cxx</in>
+            <in>key.cxx</in>
+            <in>model.cxx</in>
+            <in>name.cxx</in>
+            <in>primary-key.cxx</in>
+            <in>table.cxx</in>
+          </df>
+          <in>class-template.cxx</in>
+          <in>class.cxx</in>
+          <in>derived.cxx</in>
+          <in>elements.cxx</in>
+          <in>enum.cxx</in>
+          <in>fundamental.cxx</in>
+          <in>namespace.cxx</in>
+          <in>template.cxx</in>
+          <in>union-template.cxx</in>
+          <in>union.cxx</in>
+          <in>unit.cxx</in>
+        </df>
+        <df name="traversal">
+          <df name="relational">
+            <in>changelog.cxx</in>
+            <in>key.cxx</in>
+          </df>
+          <in>class-template.cxx</in>
+          <in>class.cxx</in>
+          <in>derived.cxx</in>
+          <in>elements.cxx</in>
+          <in>enum.cxx</in>
+          <in>template.cxx</in>
+          <in>union-template.cxx</in>
+        </df>
+        <in>common-query.cxx</in>
+        <in>common.cxx</in>
+        <in>context.cxx</in>
+        <in>cxx-lexer.cxx</in>
+        <in>diagnostics.cxx</in>
+        <in>emitter.cxx</in>
+        <in>generator.cxx</in>
+        <in>header.cxx</in>
+        <in>include.cxx</in>
+        <in>inline.cxx</in>
+        <in>instance.cxx</in>
+        <in>location.cxx</in>
+        <in>lookup.cxx</in>
+        <in>odb.cxx</in>
+        <in>option-functions.cxx</in>
+        <in>option-types.cxx</in>
+        <in>options.cxx</in>
+        <in>parser.cxx</in>
+        <in>plugin.cxx</in>
+        <in>pragma.cxx</in>
+        <in>processor.cxx</in>
+        <in>profile.cxx</in>
+        <in>source.cxx</in>
+        <in>sql-lexer.cxx</in>
+        <in>sql-token.cxx</in>
+        <in>validator.cxx</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>build/odb-2.4.0</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+              <pElem>/usr/lib/gcc/i686-linux-gnu/4.8/plugin/include</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <requiredProjects>
+          <makeArtifact PL="../libcutl-1.9.0"
+                        CT="0"
+                        CN="Default"
+                        AC="true"
+                        BL="false"
+                        WD="../libcutl-1.9.0"
+                        BC="${MAKE} -f Makefile"
+                        CC="${MAKE} -f Makefile clean"
+                        OP="cutl/.libs/libcutl-1.9.so">
+          </makeArtifact>
+        </requiredProjects>
+      </makefileType>
+      <folder path="0/odb/relational">
+        <ccTool>
+          <incDir>
+            <pElem>odb</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/odb/semantics">
+        <ccTool>
+          <incDir>
+            <pElem>odb</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/odb/traversal">
+        <ccTool>
+          <incDir>
+            <pElem>odb</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="odb/common-query.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/cxx-lexer.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/diagnostics.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/emitter.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/generator.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/include.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/instance.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/location.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/lookup.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/odb.cxx" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="odb/option-functions.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/option-types.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/options.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/parser.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/plugin.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/pragma.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/processor.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/profile.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/relational/changelog.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/common-query.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mssql/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/mysql/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/oracle/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/pgsql/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/processor.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/schema-source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/common.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/header.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/inline.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/schema.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/sqlite/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/relational/validator.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/class-template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/class.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/derived.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/elements.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/enum.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/fundamental.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/namespace.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/changelog.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/changeset.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/column.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/deferrable.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/elements.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/foreign-key.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/index.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/key.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/model.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/name.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/primary-key.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/relational/table.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/union-template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/union.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/semantics/unit.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/source.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/sql-lexer.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/sql-token.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+      <item path="odb/traversal/class-template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/class.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/derived.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/elements.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/enum.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/relational/changelog.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/relational/key.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/traversal/union-template.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="odb/validator.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+          <preprocessorList>
+            <Elem>PIC</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
